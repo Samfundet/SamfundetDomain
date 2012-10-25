@@ -20,7 +20,7 @@ Run `rake db:migrate` to execute the newly created migrations.
 
 ## Updating
 
-Run the following command to update the gem.
+Run the following commands to update the gem.
 
 ```bash
 bundle update samfundet_domain
