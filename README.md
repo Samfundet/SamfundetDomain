@@ -13,7 +13,7 @@ gem 'samfundet_domain', :git => "git://github.com/Samfundet/SamfundetDomain.git"
 Copy the migrations to your project with the following command.
 
 ```bash
-rake samfundet_domain:install:migrations
+rake samfundet_domain_engine:install:migrations
 ```
 
 Run `rake db:migrate` to execute the newly created migrations.
@@ -24,7 +24,7 @@ Run the following commands to update the gem.
 
 ```bash
 bundle update samfundet_domain
-rake samfundet_domain:install:migrations
+rake samfundet_domain_engine:install:migrations
 ```
 
 Run `rake db:migrate` again to execute any newly created migrations.
