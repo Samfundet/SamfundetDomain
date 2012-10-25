@@ -18,6 +18,17 @@ rake samfundet_domain:install:migrations
 
 Run `rake db:migrate` to execute the newly created migrations.
 
+## Updating
+
+Run the following command to update the gem.
+
+```bash
+bundle update samfundet_domain
+rake samfundet_domain:install:migrations
+```
+
+Run `rake db:migrate` again to execute any newly created migrations.
+
 ## Usage
 
 If installed correctly, you will have access to three new models: Group, GroupType and Area.
