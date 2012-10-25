@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "The student society of Tronheims domain models."
   s.description = "A mountable Rails engine which provides an application with the basic domain models of the student society of Trondheim."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.8"
