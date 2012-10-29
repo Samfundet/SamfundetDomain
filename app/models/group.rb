@@ -1,6 +1,8 @@
 class Group < ActiveRecord::Base
   belongs_to :group_type
 
+  attr_accessible :name, :group_type, :short_description, :long_description
+
   validates_presence_of :name, :group_type, :short_description, :short_description
   validates_associated :group_type
 
