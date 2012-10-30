@@ -91,18 +91,18 @@ namespace :samfundet_domain_engine do
         end
       end
 
-      areas = [
-        "Storsalen",
-        "Bodegaen",
-        "Klubben",
-        "Strossa",
-        "Selskapssiden",
-        "Knaus",
-        "Edgar",
-        "Lyche",
-        "Daglighallen",
-        "Rundhallen",
-      ]
+      areas = %w(
+        Storsalen
+        Bodegaen
+        Klubben
+        Strossa
+        Selskapssiden
+        Knaus
+        Edgar
+        Lyche
+        Daglighallen
+        Rundhallen
+      )
 
       areas.each do |area|
         tasks << Proc.new do
