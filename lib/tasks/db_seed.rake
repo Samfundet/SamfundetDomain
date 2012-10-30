@@ -14,16 +14,16 @@ namespace :samfundet_domain_engine do
         end
       end
 
-      group_types = [
-        "Styrende organ",
-        "Arrangerende",
-        "Drift",
-        "Kunstneriske",
-        "Media",
-        "Festivaler",
-        "Administrative",
-        "Andre grupperinger"
-      ]
+      group_types = %w(
+        Styrende\ organ
+        Arrangerende
+        Drift
+        Kunstneriske
+        Media
+        Festivaler
+        Administrative
+        Andre\ grupperinger
+      )
 
       group_types.each_with_index do |group_type, priority|
         tasks << Proc.new do
