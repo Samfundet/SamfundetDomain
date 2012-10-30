@@ -3,7 +3,6 @@ class CreateGroups < ActiveRecord::Migration
     create_table :groups do |t|
       t.string     :name, :null => false
       t.string     :abbreviation
-      t.text       :description, :null => false
       t.string     :website
       t.text       :short_description, :null => false
       t.text       :long_description, :null => false
