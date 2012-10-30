@@ -18,6 +18,12 @@ rake samfundet_domain_engine:install:migrations
 
 Run `rake db:migrate` to execute the newly created migrations.
 
+You may add the following line to your db/seeds.rb to seed group types, groups and areas.
+
+```ruby
+Rake::Task['samfundet_domain_engine:db:seed'].invoke
+```
+
 ## Updating
 
 Run the following commands to update the gem.
