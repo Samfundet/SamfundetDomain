@@ -4,8 +4,8 @@ class CreateGroups < ActiveRecord::Migration
       t.string     :name, :null => false
       t.string     :abbreviation
       t.string     :website
-      t.text       :short_description, :null => false
-      t.text       :long_description, :null => false
+      t.text       :short_description
+      t.text       :long_description
       t.references :group_type, :foreign_key => { :dependent => :nullify }, :null => false
 
       t.timestamps
