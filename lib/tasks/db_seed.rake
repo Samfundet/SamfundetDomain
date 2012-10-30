@@ -91,6 +91,25 @@ namespace :samfundet_domain_engine do
         end
       end
 
+      areas = [
+        "Storsalen",
+        "Bodegaen",
+        "Klubben",
+        "Strossa",
+        "Selskapssiden",
+        "Knaus",
+        "Edgar",
+        "Lyche",
+        "Daglighallen",
+        "Rundhallen",
+      ]
+
+      areas.each do |area|
+        tasks << Proc.new do
+          Area.create! :name => area
+        end
+      end
+
       print "00%"
 
       tasks.each_with_index do |task, index|
