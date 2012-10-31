@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["MG::Web", "Jonas Amundsen"]
   s.email       = ["mg-web@samfundet.no", "jonasba@gmail.com"]
   s.homepage    = "https://github.com/Samfundet/SamfundetDomain"
-  s.summary     = "The student society of Tronheims domain models."
+  s.summary     = "The student society of Trondheims domain models."
   s.description = "A mountable Rails engine which provides an application with the basic domain models of the student society of Trondheim."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
