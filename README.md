@@ -7,6 +7,7 @@ This project rocks and uses MIT-LICENSE.
 Add the following line to your Gemfile and run `bundle install` again.
 
 ```ruby
+# SamfundetDomain is a gem which provides the application with samfundets domain models.
 gem 'samfundet_domain', :git => "git://github.com/Samfundet/SamfundetDomain.git"
 ```
 
@@ -29,7 +30,7 @@ Rake::Task['samfundet_domain_engine:db:seed'].invoke
 Run the following commands to update the gem.
 
 ```bash
-bundle update samfundet_domain
+bundle update --source samfundet_domain
 rake samfundet_domain_engine:install:migrations
 ```
 
