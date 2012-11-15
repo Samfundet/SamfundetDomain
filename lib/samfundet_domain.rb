@@ -13,7 +13,7 @@ module SamfundetDomain
       if File.exists? database_path
         database_config = YAML.load_file database_path
 
-        if config.domain_database && false
+        if config.domain_database
           [Area, Group, GroupType].each do |model|
             model.establish_connection database_config[config.domain_database.to_s]
           end
