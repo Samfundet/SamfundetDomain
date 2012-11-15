@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-desc "Load the seed data from SamfundetDomain\"s db/seeds.rb"
+desc "Load the seed data from SamfundetDomain's db/seeds.rb"
 namespace :samfundet_domain_engine do
   namespace :db do
     task :seed => :environment do
@@ -45,7 +45,7 @@ namespace :samfundet_domain_engine do
          { :name => "IT-komiteen", :abbreviation => "ITK", :group_type => "Drift" },
          { :name => "Kontrollkontoret", :abbreviation => "KK", :group_type => "Drift" },
          { :name => "Radio Revolt", :abbreviation => "Radion", :group_type => "Media" },
-         { :name => "Big Mama\"s Cowboys", :abbreviation => "", :group_type => "Kunstneriske" },
+         { :name => "Big Mama's Cowboys", :abbreviation => "", :group_type => "Kunstneriske" },
          { :name => "S. Møller Storband", :abbreviation => "", :group_type => "Kunstneriske" },
          { :name => "Lørdagskomitéen", :abbreviation => "LK", :group_type => "Arrangerende" },
          { :name => "Profilgruppa", :abbreviation => "Profil", :group_type => "Drift" },
