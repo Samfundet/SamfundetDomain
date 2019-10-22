@@ -1,4 +1,4 @@
-class Group < ActiveRecord::Base
+class Group < ApplicationRecord
   belongs_to :group_type
 
   validates_presence_of :name, :group_type

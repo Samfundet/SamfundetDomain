@@ -1,4 +1,4 @@
-class Area < ActiveRecord::Base
+class Area < ApplicationRecord
   validates_presence_of :name
 
   def to_s

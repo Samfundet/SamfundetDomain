@@ -1,4 +1,4 @@
-class GroupType < ActiveRecord::Base
+class GroupType < ApplicationRecord
   has_many :groups, :order => 'name'
 
   validates_presence_of :description, :priority
